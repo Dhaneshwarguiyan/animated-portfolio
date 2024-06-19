@@ -1,0 +1,21 @@
+.footer{
+    height: 100px;
+    width: 100%;
+    background: #0c0c1d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+@media (max-width:700px) {
+    .footer{
+        height: 60px;
+    }
+}
+@media (max-width:500px) {
+    .footer{
+        height: 60px;
+        font-size: 12px;
+    }
+}

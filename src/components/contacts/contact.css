@@ -1,0 +1,122 @@
+.contact{
+    width: 100%;
+    /* height: 100%; */
+    background: linear-gradient(0deg,#0c0c1d,#111132);
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    padding-bottom: 100px;
+}
+.contact-logo{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;        width: 50px;
+    height: 50px;
+}
+.contact-wrapper{
+    width: 1366px;
+    margin: auto;
+    display: flex;
+}
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.logos{
+    display: flex;
+    gap: 30px;
+}
+.contact-bor{
+    border: 2px solid white;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.inputs{
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 8px;
+}
+.message{
+    height: 170px;
+}
+.input-button{
+    margin: auto;
+    padding: 15px 30px;
+    border-radius: 10px;
+    
+}
+@media (max-width:1400px) {
+    .contact-wrapper{
+        width: 90%;
+    }
+}
+@media (max-width:1000px) {
+    .contact{
+        gap: 30px;
+        padding-bottom: 0;
+    }
+    .contact-wrapper{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .contact-logo{
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+    }
+    .contact-bor{
+        width: 50px;
+        height: 50px;
+    }
+    .contact-img{
+        width: 300px;
+        height: 300px;
+    }
+    .message{
+        height: 100px;
+    }
+    .inputs{
+        padding: 15px;
+    }
+}
+@media (max-width:500px) {
+    .contact{
+        padding-bottom: 30px;
+    }
+    .contact-img-div{
+        display: none;
+    }
+    .contact-wrapper{
+        gap: 50px;
+    }
+    .inputs{
+        width: 90%;
+    }
+    .message{
+        height: 200px;
+    }
+}

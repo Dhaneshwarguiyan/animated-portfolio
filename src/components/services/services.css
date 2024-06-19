@@ -1,0 +1,17 @@
+.ser-img{
+    width: 300px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.services{
+    width: 1366px;
+    height: 100%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ser-text{
+    align-self: flex-end;
+}
